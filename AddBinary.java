@@ -1,4 +1,4 @@
-public class Solution {
+xpublic class Solution {
     public String addBinary(String a, String b) {
         return addBinary(a,b,0);
     }
