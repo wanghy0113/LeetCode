@@ -7,6 +7,17 @@ public class Solution {
         int point = -1;
         while(i!=s.length())
         {
+            // if(j==p.length())
+            // {
+            //     if(star!=-1)
+            //     {
+            //         j=star+1;
+            //         i = ++point;
+            //         continue;
+            //     }
+            // }
+            //to reduce lines, we first handle when j<p.length(), then if all possiblities don't satisfy, 
+            //we return false
             if(j<p.length())
             {
                 char sc = s.charAt(i);
